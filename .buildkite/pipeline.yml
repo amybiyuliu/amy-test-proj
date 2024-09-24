@@ -1,0 +1,2 @@
+steps:
+  - name: ":rspec: Run rspec"
