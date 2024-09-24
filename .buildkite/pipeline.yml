@@ -1,2 +1,7 @@
+env:
+  LEVEL: "pipeline"
+
 steps:
-  - name: ":rspec: Run rspec"
+  command: "echo $LEVEL"
+  env:
+    LEVEL: "step"
